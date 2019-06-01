@@ -15,7 +15,7 @@ It is recommended to use JupyterNotebooks to see the returned values from each c
 
 
 Files:
-Included is four files of code, a .h5 file for a LSTM forecasting model prototype, and a .sav file for a linear regression model prototype and a random forest regressor. To load the linear regression model, the pickleshare library version 0.7.4 is needed. 
+Included is four files of code, a .h5 file for a LSTM forecasting model prototype, and a .sav file for a linear regression model prototype and a random forest regressor. To load the linear regression model and random forest regressor, the pickleshare library version 0.7.4 is needed. 
 
 The first set of code includes the data visualization & analyses, which uses numpy version 1.14.2, pandas version 0.22.0, and matplotlib version 2.2.2, along with various miscellaneous libraries.
 The AD Fuller test was used to statistically validate the stationarity of the USAGE_KWH. The coint-johanson test was used to validate the stionarity for the entire, multivariate dataset. 
