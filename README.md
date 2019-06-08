@@ -1,9 +1,13 @@
 Derek He- Power Consumption Demand Forecast
 
 
+Note: All code was created by the GitLab user unless otherwise specified by the comments in the code. 
+Main sources of Open-Source code include machinelearningmastery.com, analyticsvidhya.com, and scikitlearn documentation.
+Many open source code accomplishes the various desired tasks, but were modified by the GitLab User to adapt to the specific problem.
+
 
 Summary of Results:
-A LSTM model obtained a Mean Squared Error of 8.36 on a test dataset of 100 rows (containing 96 forecasted times per row). 
+A LSTM model obtained a Mean Squared Error of 9.106 on a test dataset of 100 rows (containing 96 forecasted times per row). 
 The Augmented Dickey Fuller test indicated that the boxcox transformed data had the most correlation between the USAGE_KWH values. 
 
 
@@ -15,14 +19,14 @@ It is recommended to use JupyterNotebooks to see the returned values from each c
 
 
 Files:
-Included is four files of code, a .h5 file for a LSTM forecasting model prototype, and a .sav file for a linear regression model prototype and a random forest regressor. To load the linear regression model and random forest regressor, the pickleshare library version 0.7.4 is needed. 
+Included is four files of code, a .sav file for a linear regression model prototype, and a .sav file for a random forest regressor. To load the linear regression model and random forest regressor, the pickleshare library version 0.7.4 is needed. 
 
 The first set of code includes the data visualization & analyses, which uses numpy version 1.14.2, pandas version 0.22.0, and matplotlib version 2.2.2, along with various miscellaneous libraries.
 The AD Fuller test was used to statistically validate the stationarity of the USAGE_KWH. The coint-johanson test was used to validate the stionarity for the entire, multivariate dataset. 
 
 The second set of code includes the experimentation with classical trend prediction algorithms. These all performed poorly. Because there are 4 versions of the data (original dataset and 3 transformed datasets), most algorithms were applied to each dataset (and the appropriate inverting was applied). Only on the VAR, VARMAX, Simple Exponential Smoothing, and Exponential Smoothing algorithms were only applied to the original dataset only (to reduce redundancy). 
 
-The third set of code includes the successful model (using a LSTM Deep Learning framework). An .h5 file is included where the weights are saved. 
+The third set of code includes the successful model (using a LSTM Deep Learning framework). 
 
 The fourth set of code includes a successful model (a linear regression model with a MSE of 14.7). An .sav file is included where the weights are saved. 
 Also a random forest regressor was attempted, but the mean squared error was 20.07. An .sav file is included where the weights are saved. 
