@@ -5,6 +5,8 @@ Note: All code was created by the GitLab user unless otherwise specified by the 
 Main sources of Open-Source code include machinelearningmastery.com, analyticsvidhya.com, and scikitlearn documentation.
 Many open source code accomplishes the various desired tasks, but were modified by the GitLab User to adapt to the specific problem.
 
+*** Especially for the LSTM and Linear & Ensemble Machine Learning notebooks, multiple markdown cells were used to mention the GitLab user's individual ideas that improved upon the blog/inspired material's ideas.
+
 
 Summary of Results:
 A LSTM model obtained a Mean Squared Error of 9.106 on a test dataset of 100 rows (containing 96 forecasted times per row). 
