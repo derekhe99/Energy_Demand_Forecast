@@ -5,7 +5,7 @@ Note: All code was created by me unless otherwise specified by the comments in t
 Main sources of Open-Source code include machinelearningmastery.com, analyticsvidhya.com, and scikitlearn documentation.
 Many open source code accomplishes the various desired tasks, but were modified by me to adapt to the specific problem.
 
-*** Especially for the LSTM and Linear & Ensemble Machine Learning notebooks, multiple markdown cells were used to mention the GitLab user's individual ideas that improved upon the blog/inspired material's ideas.
+*** Especially for the LSTM and Linear & Ensemble Machine Learning notebooks, multiple markdown cells were used to mention my ideas that improved upon the blog/inspired material's ideas.
 
 
 Summary of Results:
