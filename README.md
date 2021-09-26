@@ -1,9 +1,9 @@
 Derek He- Power Consumption Demand Forecast
 
 
-Note: All code was created by the GitLab user unless otherwise specified by the comments in the code. 
+Note: All code was created by me unless otherwise specified by the comments in the code. 
 Main sources of Open-Source code include machinelearningmastery.com, analyticsvidhya.com, and scikitlearn documentation.
-Many open source code accomplishes the various desired tasks, but were modified by the GitLab User to adapt to the specific problem.
+Many open source code accomplishes the various desired tasks, but were modified by me to adapt to the specific problem.
 
 *** Especially for the LSTM and Linear & Ensemble Machine Learning notebooks, multiple markdown cells were used to mention the GitLab user's individual ideas that improved upon the blog/inspired material's ideas.
 
